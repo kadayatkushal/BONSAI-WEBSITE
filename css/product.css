@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+   width: 90%;
+   margin-left: 5%;
+   margin-top: 10%;
+   height: 500px;
+   border-radius: 3px;
+   display: flex;
+   border: 2px solid black;
+   background-color: whitesmoke;
+}
+
+.sec1{
+    width: 45%;
+    height: 500px;
+    left: 0;
+}
+
+.sec1 img{
+    width: 100%;
+    height: 400px;
+    left: 0;
+}
+
+.sec2{
+    width: 65%;
+    left: 45%;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.sec2 .head{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: rgba(0, 0, 0, 0.436);
+}
+
+.sec2 .content{
+    margin-top: 25px;
+    margin-left: 70px;
+    font-size: 1.5em;
+}
+
+.sec2 .paragraph{
+    margin-top: 20px;
+    margin-left: 70px;
+    color: rgba(0, 0, 0, 0.684);
+}
+.sec2 .price{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 1.6em;
+    color: rgb(37, 89, 37);
+    display: flex;
+}
+
+.sec2 .price h4{
+    margin-left: 30px;
+    margin-top: 28px;
+    font-size: 0.7em;
+    color: green;
+}
+
+.sec2 .button{
+    margin-top: 40px;
+    margin-left: 75%;
+    display: flex;
+}
+
+.sec2 .button button{
+    padding: 12px 28px;
+    border-radius: 12px;
+    background-color: #90EE90;
+    color: black;
+    font-size: larger;
+    transition: 0.5s ease-in-out;
+}
+
+.sec2 .button button:hover{
+    background-color: #50C878;
+}
+
+/* for bg image*/
+.first{
+    background-image: url(../images/product/pexels-quang-nguyen-vinh-2149105.jpg);
+    background-size: cover;
+    padding-top: 96px;
+    padding-left: 65%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.fcontent{
+    font-size: 1.5em;
+    height: 200px;
+    width: 300px;
+    padding-top: 90px;
+    color: white;
+}
+
+.fcontent h1{
+    color: rgba(255, 255, 255, 0.771);
+}
+.tab{
+    display: inline-block;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.771);
+    margin-top: 30px;
+}
+
+.first .fcontent button{
+    padding: 5px 8px;
+    border-radius: 12px;
+    background-color: rgb(207, 223, 37);
+    opacity: 40%;
+    color: black;
+    font-size: large;
+    transition: 0.5s ease-in-out;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+
+.first .fcontent button:hover{
+    opacity: 100%;
+    transition: 0.5s ease-in-out;
+    background-color: orange;
+}
+.container{
+    height: 120vh;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #E55451;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.container h1{
+    padding-top: 20px;
+    color: mintcream;
+}
+/*timer css */
+.timer {
+    display: flex;
+    align-items: center;
+    margin-left: 390px;
+    padding-top: 60px;
+    border: none;
+    border-radius: 10rem;
+    height: 200px;
+    width: 350px;
+
+}
+
+.timer div {
+    flex-basis: 100px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(149, 34, 34);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: -80px;
+
+}
+
+.timer div p {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.timer div p .days {
+    display: flex;
+    justify-content: center;
+}
+/* For Slideshow*/
+.slideshow-container{
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container .mySlides img{
+    border-radius: 20px;
+    height: 500px;
+}
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-left: 67px;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-right: 67px;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* valentine */
+  .valentinetext {
+    position: absolute;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 5px;
+    color: #183104;
+    top: 305%;
+    left: 6%;
+}
+
+
+
+
+/*contents div and cards div */
+.contentsDiv,
+.cardsDiv {
+    position: absolute;
+    height: 23rem;
+    border-radius: 20px;
+    
+}
+
+/*container 2*/
+.valentinediv .cardsDiv {
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-left: -57px;
+    padding-bottom: 340px;
+}
+
+
+/*cards on container 2*/
+.cardsDiv .cards {
+    height: 21.5rem;
+    width: 25%;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+/*contents on contents div i.e headings and para*/
+.bonsai {
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 25px;
+    color: white;
+}
+
+.bonsaiText {
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.bonsaiParagraph {
+    justify-content: center;
+    font-size: 17px;
+    text-align: justify;
+
+}
+
+
+/* button on container 1*/
+
+.shopMore {
+    position: absolute;
+    width: 8rem;
+    font-size: 17px;
+    padding: 5px;
+    color: #183104;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #808456;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 360px;
+    margin-left: 460px;
+}
+
+
+.shopMore:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #272511;
+
+}
+
+/*content on container 2 i.e product name ,price etc*/
+.content {
+    
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: -50px;
+    }
+
+.content .bonsainamee {
+    margin-top: 6px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    color: black;
+}
+
+.content .shipping {
+    margin-bottom: 10px;
+    margin-left: -20px;  
+}
+
+.content .reviews {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.content .rating {
+    margin-left: -15px;
+}
+
+.contentimg{
+    margin-left: 80px;
+}
+
+/*styling shipping text*/
+.shipping {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    color: rgb(24, 49, 4);
+    letter-spacing: 0.05em;
+    border-radius: 20px;
+    width: 6.2rem;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 1.5rem;
+}
+
+
+  .cartFirst,
+.cartSecond,
+.cartThird,
+.cartFourth {
+    display: none;
+}
+
+
+.cartContainerFirst,
+.cartContainerSecond,
+.cartvalentineThird,
+.cartContainerFourth {
+    display: flex;
+    margin-right: -2px;
+    background-color: rgba(157, 157, 127, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 4.3rem;
+    left: -1.6rem;
+
+
+}
+
+.img:hover .cartFirst,
+.img:hover .cartSecond,
+.img:hover .cartThird,
+.img:hover .cartFourth {
+    display: inline;
+    display: flex;
+    top: 153.8rem;
+    position: absolute;
+    border: 2px;
+}
+
+.img:hover .cartTextFirst,
+.img:hover .cartTextSecond,
+.img:hover .cartTextThird,
+.img:hover .cartTextFourth {
+    top: 15px;
+    margin-left: 25px;
+    position: absolute;
+    left: 50px;
+    color: white;
+
+}
+
+
+.img:hover .cartTextFirst:hover,
+.img:hover .cartTextSecond:hover,
+.img:hover .cartTextThird:hover,
+.img:hover .cartTextFourth:hover {
+
+    -ms-transform: scale(1);
+    -webkit-transform: scale(0.6);
+    transform: scale(1.1);
+}
+
+
+/*on hover position*/
+/*card1*/
+.img:hover .cartFirst {
+    left: 26rem;
+}
+
+/*card2*/
+.img:hover .cartSecond {
+    left: 42.26rem;
+}
+
+/*card3*/
+.img:hover .cartThird {
+    left: 58.5rem;
+}
+
+/*card 4*/
+.img:hover .cartFourth {
+    left: 74.8em;
+}
+
+
+
+.productClass {
+    position: absolute;
+    font-weight: 650;
+    font-size: 25px;
+    padding: 4px;
+    color: #183104;
+    top: 375%;
+}
+
+.container3 h1{
+    margin-top: 80px;
+    margin-left: 45%;
+    font-size: 2em;
+}
+
+.productClass {
+    position: absolute;
+    font-family: inherit;
+    font-weight: 650;
+    font-size: 25px;
+    padding: 5px;
+    color: #183104;
+    top: 375%;
+    left: 4%;
+
+}
+
+
+.gcontainer {
+    margin-top: -80px;
+    display: flex;
+    width: 88%;
+    margin-left: 40px;
+    margin-bottom: 60px;
+    height: 24.6rem;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+
+
+.gcontainer .box {
+    width: 20%;
+    margin: 20px;
+    border: 2px;
+    border-radius: 30px;
+}
+
+.gcontainer .box:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+}
+
+.imageslide1 {
+    border: 2px;
+    border-radius: 10px;
+}
+
+.bonsaiName {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+    text-align: left;
+    margin-left: -100px;
+    color: rgb(109, 110, 67);
+}
+
+.priceFeatured {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: -94px;
+    color: rgb(109, 110, 67);
+
+
+}
+
+#last{
+    padding-top: 200px;
+}
+
+.sld{
+    max-height: 495px;
+}
+s{
+    text-decoration: line-through;
+}
+
+p{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.html {
+    height: 25px;
+    width: 25px;
+  }

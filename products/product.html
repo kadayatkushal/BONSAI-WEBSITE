@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Team6">
+    <meta name="description" content="HTML document">
+    <meta name="keyboards" content="HTML">
+
+
+    <title>product</title>
+    <link rel="stylesheet" href="../css/product.css">
+
+     <!--custom css file link-->
+     <link rel="stylesheet" href="../css/style.css">
+ 
+</head>
+
+<body>
+
+     <!--Internal CSS-->
+
+     <style>
+        
+        *{
+        font-family: 'Roboto', sans-serif;
+        margin: 0;  
+        padding: 0;
+        box-sizing: border-box;
+        text-transform: capitalize;
+        outline: none; border: none;
+        text-decoration: none;
+        transition: all .2s linear;
+        }
+    
+        html{
+          font-size: 62.5%;
+          overflow-x: hidden;
+          scroll-behavior: smooth;
+          scroll-padding-top: 7rem;
+        }
+    
+        </style>
+        <!--Internal CSS ends-->
+
+         <!--header section starts-->
+       <header>
+        <div class="header-1">
+
+            <div class="share">
+                <span> follow us:</span>
+                <a href="#"><img src="../images/fb.png" class="html" alt=""></a>
+                <a href="#"><img src="../images/twitter.png" class="html" alt=""></a>
+                <a href="#"><img src="../images/instagram.png" class="html" alt=""></a>
+                <a href="#"><img src="../images/linkedin.png" class="html" alt=""></a>
+            </div>
+
+            <div class="call">
+                <span> call us: </span>
+                <a href="#">+123-456-7890</a>
+            </div>
+
+        </div>
+
+
+        <div class="header-2">
+
+            <a href="#" class="logo"><img src="../images/leaf.png" class="html" alt=""> Plantaxa</a>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar"><img src="../images/search.png" class="html" alt=""></label>
+            </form>
+        </div>
+
+        <div class="header-3">
+            
+            <div id="menu-bar"><img src="../images/menu.png" class="html" alt=""></div>
+
+            <nav class="navbar">
+                <a href="../index.html">Home</a>
+                <a href="./product.html">Products</a>
+                <a href="../blog/blog.html">Blog</a>
+                <a href="../research/reserch.html">Research</a>
+                <a href="../about_us/about_us.html">About Us</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#"><img src="../images/shopping.png" class="html" alt=""></a>
+                <a href="#"><img src="../images/heart.png" class="html" alt=""></a>
+                <a href="#"><img src="../images/user.png" class="html" alt=""></a>
+            </div>
+        </div>
+       </header>
+
+    <!--header section ends-->
+        
+    <div class="first">
+        <div class="fcontent">
+            <h1><b> Bonsai:</b> <br>
+                <div class="tab">Everything grows with love.</div>
+            </h1>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="container">
+        <h1 align="center">Valentine offer ends in</h1>
+        <div class="timer" id="timer">
+            <div>
+                <p id="days"> 00</p>
+                <h1 class="days"> <span style="color: #fff;">Days</span></h1>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <h1 class="hours"><span style="color: #fff;">Hours</span></h1>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <h1 class="minutes"><span style="color: #fff;">Minutes</span> </h1>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <h1 class="seconds"><span style="color: #fff;">Seconds</span></h1>
+            </div>
+        </div>
+        <!--Section For valentine Container-->
+        <section class="valentineThird">
+            <h1 class="valentinetext">Best Selling</h1>
+            <div class="valentinediv">
+                <!--contents div i.e it contains bonsai and it's origin text-->
+                <div class="contentsDiv">
+                    <button class="shopMore" type="submit"> Shop More </button>
+
+                </div>
+                <!--Cards div i.e it contains cards-->
+                <div class="cardsDiv">
+                    <!--card first on cards div-->
+                    <div class="cards">
+                        <!--bonsai image and contents over it-->
+                        <div class="img">
+                            <img class="bonsaiImage" src="../images/product/valentine1.png" height="200px" width="250px">
+                            <div class="cartFirst">
+                                <div class="cartContainerFirst">
+                                    <h1 class="cartTextFirst" style="cursor: pointer;" onclick="openpopup()">Add TO Cart
+                                    </h1>
+                                </div>
+                            </div>
+                        </div><br>
+
+                        <!--contents below image -->
+                        <div class="contentimg">
+                        <div class="bonsainamee">
+                            <h1 style="color: black;">Azalea</h1>
+                        </div>
+                            
+                            <div class="rating">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/empty star.png" height="20px" width="20px">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--card second on cards div-->
+                    <div class="cards">
+                        <!--bonsai image and contents over it-->
+                        <diV class="img">
+                            <img class="bonsaiImage" src="../images/product/valentine2.png" height="200px" width="250px">
+                            <div class="cartSecond">
+                                <div class="cartContainerSecond">
+                                    <h1 class="cartTextSecond" style="cursor: pointer;" onclick="openpopup()"
+                                        onmouseleave="closepopup2()">Add To Cart
+                                    </h1>
+                                </div>
+                            </div>
+                        </diV><br>
+                        <!--contents below image-->
+                        <div class="contentimg">
+                            <div class="bonsainamee">
+                                <h1 style="color: black;">Ficus</h1>
+                            </div>
+                            
+                            <div class="rating">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/empty star.png" height="20px" width="20px">
+
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--card three on card div-->
+                    <div class="cards">
+                        <!--bonsai image and contents over it-->
+                        <diV class="img">
+                            <img class="bonsaiImage" src="../images/product/valentine3.png" height="200px" width="250px">
+                            <div class="cartThird">
+                                <div class="cartvalentineThird">
+                                    <h1 class="cartTextThird" style="cursor: pointer;" onclick="openpopup()"
+                                        onmouseleave="closepopup()">Add To Cart
+                                    </h1>
+                                </div>
+                            </div>
+                        </diV><br>
+                        <!--contents below picture-->
+                        <div class="contentimg">
+                            <div class="bonsainamee">
+                                <h1 style="color: black;">Pepper</h1>
+                            </div>
+                            
+                            <div class="rating">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--card fourth on cards div-->
+                    <div class="cards">
+                        <!--image and contents over it-->
+                        <diV class="img">
+                            <img class="bonsaiPimage" src="../images/product/valentine4.png" height="200px" width="250px">
+                            <div class="cartFourth">
+                                <div class="cartContainerFourth">
+                                    <h1 class="cartTextFourth" style="cursor: pointer;" onclick="openpopup()"
+                                        onmouseleave="closepopup()">Add To Cart
+                                    </h1>
+                                    </a>
+                                </div>
+                            </div>
+                        </diV><br>
+
+                        <!--contents below picture-->
+                        <div class="contentimg">
+                            <div class="bonsainamee">
+                                <h1 style="color: black;">Juniperus</h1>
+                            </div>
+                           
+                            <div class="rating">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/full star .png" height="20px" width="20px">
+                                <img src="../images/product/empty star.png" height="20px" width="20px">
+                                <img src="../images/product/empty star.png" height="20px" width="20px">
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="container3">
+        <h1>Best Selling</h1>
+        <div class="gcontainer">
+
+            <div class="box">
+                <diV class="imageslide">
+                    <img class="imageslide1" src="../images/product/best1.png" height="250px" width="250px">
+
+                </diV><br>
+                <div class="content">
+
+                    <div>
+                        <h1 class="bonsaiName">Serissa</h1>
+                        <h1 class="priceFeatured">Rs.1000</h1>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <diV class="imageslide">
+                    <img class="imageslide1" src="../images/product/best2.png" height="250px" width="250px">
+
+                </diV><br>
+                <div class="content">
+
+                    <div>
+                        <h1 class="bonsaiName">Larcha</h1>
+                        <h1 class="priceFeatured">Rs.1500</h1>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <diV class="imageslide">
+                    <img class="imageslide1" src="../images/product/best3.png" height="250px" width="250px">
+                </diV><br>
+                <div class="content">
+
+                    <div>
+                        <h1 class="bonsaiName">Apricot</h1>
+                        <h1 class="priceFeatured">Rs.2500</h1>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="box">
+                <diV class="imageslide">
+                    <img class="imageslide1" src="../images/product/best4.png" height="250px" width="250px">
+
+                </diV><br>
+                <div class="content">
+
+                    <div>
+                        <h1 class="bonsaiName">elm</h1>
+                        <h1 class="priceFeatured">Rs.1600</h1>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <h1 id= "last"align="center" style="margin-top: 80px;">Top Picks for you!</h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/Screen Shot 2023-01-20 at 13.42.59.png" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Pomegranate Bonsai Tree</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>The pomegranate bonsai tree has old-world look that makes it popular for aesthetic
+                            <br>purposes.
+                            These trees grow well outdoors in warm conditions.
+                            Pomegranate Bonsai<br>Leaves: Shiny green leaves.
+                            Pomegranate Bonsai Flowers: Red-orange flowers.<br>
+                            Pomegranate trees have many features that make them attractive as bonsai: a thick <br>trunk
+                            with interesting bark as well as eye-catching flowers that bear fruit. Native to<br> the
+                            Middle East and Southeast Asia, this striking tree has been a popular bonsai <br> choice in
+                            Japan for centuries.
+                        </p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:2000.00</h1>
+                        <h4>
+                            <s>Rs:2999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/file.jpg.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Judean Date Palm</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>A truly ancient tree, Judean Date Palms have been extinct for about 2,000 years, <br>however
+                            at one time they were extremely popular for the fruit’s medicinal properties.<br>The species
+                            has earned the new name Judean date palm, along with the scientific name Phoenix
+                            dactylifera. They are similar in taste and form to the modern day zahidi<br> dates.They are
+                            drier and sweeter than the medjool date and taste like natural honey</p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:1000.00</h1>
+                        <h4>
+                            <s>Rs:1999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/Boxwood-Bonsai-Tree.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Boxwood Bonsai Tree </B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            The boxwood bonsai tree is attractive to bees and can grow anywhere including <br>full shade
+                            and full sun. bonsai trees require a lot of maintenance to grow properly.
+                            <br>Boxwood Bonsai leaves Small, leathery dark green leaves.
+                            Boxwood Bonsai <br>Flowers Green-yellow flowers. A popular shrub in manicured gardens across
+                            the <br>world, the evergreen boxwood makes an excellent bonsai specimen. Hardy and
+                            <br>mistake-resistant, this beginner-friendly plant is perfect for growers looking for a
+                            <br>low-risk foray into the practice.
+
+                        </p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:3000.00</h1>
+                        <h4>
+                            <s>Rs:3999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/Dwarf-Schefflera-Bonsai-Tree.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Dwarf Schefflera Bonsai Tree</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            The dwarf schefflera bonsai tree is also known as the Hawaiian umbrella bonsai tree. This
+                            bonsai doesn’t produce hard wood and is exceedingly popular for its aesthetic value.
+                            Dwarf Schefflera Bonsai Leaves: Leaves are umbrella-shaped and bright green.
+                            Dwarf Schefflera Bonsai Flowers: Small red flowers.
+                        </p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:5000.00</h1>
+                        <h4>
+                            <s>Rs:6999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/r9zccfnovety.jpg.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Dragon’s Blood Bonsai Tree</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>The branches are like lightning, the leaves like swords, and this thing bleeds red sap. It
+                            looks like something from a fantasy story. It’s hard to find a lot of dragon blood bonsai
+                            trees because of the rarity of the tree species, but there’s no reason that you can’t have
+                            one of your own.Dracaena cinnabari, the Socotra dragon tree, or dragon blood tree, is a
+                            unique tree that is one of the most peculiar trees in the world. The tree has a distinctive
+                            external shape that makes it look like a huge umbrella, as the leaves grow only at the end
+                            of branches and point upwards.</p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:4000.00</h1>
+                        <h4>
+                            <s>Rs:4999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/baobab-bonsai-tree.jpg.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Baobab Bonsai Tree</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            Baobabs are quite rare as bonsai trees due to certain needs they have. Native<br> baobab
+                            trees are found in sub-Saharan Africa where it is always warm and sunny,<br> so the bonsai
+                            form will need similar conditions. Baobab Bonsai Trees are interesting <br>and unique
+                            looking. They have amazing roots and even bloom. They could be the<br> perfect bonsai tree
+                            for travelers, due to their low watering needs and slow growth. As <br>long as your house
+                            stays warm, and has a good window, they will be fine. 
+                        </p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:3000.00</h1>
+                        <h4>
+                            <s>Rs:4999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="card">
+                <div class="sec1">
+                    <img src="../images/product/58ea068943d163082fde8ad17929b272.jpg.webp" class="sld" alt="img">
+                </div>
+                <div class="sec2">
+                    <div class="head">
+                        <h2>Bonsai</h2>
+                    </div>
+                    <div class="content">
+                        <h1><B>Marijuana Bonsai</B></h1>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            Marijuana bonsai plants aren’t historically mainstream but they probably<br> existed. Since
+                            the recent medical advances of cannabis and the change in legal<br> status in many US
+                            states, we are seeing them more. Cannabis bonsai can be great <br>for someone who needs it
+                            for medicinal or recreational purposes, as long as it’s <br>legal in their area.Bonsai is
+                            something that fascinates people, and this fascination<br> has led to several jokes and
+                            hoaxes on the internet. 
+
+
+                        </p>
+                    </div>
+                    <div class="price">
+                        <h1>Rs:5000.00</h1>
+                        <h4>
+                            <s>Rs:5999.99</s>
+                        </h4>
+                    </div>
+                    <div class="button">
+                        <button onclick="add()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--next and previous buttons-->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+         <br>
+    <!--The dots-->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+
+        
+     <!--footer section starts-->
+
+     <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Plantaxa is the world's leading website for learning, growing, and purchasing bonsai plants.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Research</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">created by <span>team 5</span> | all rights reserved!</h1>
+     </section>
+
+      
+     <!--footer section ends-->
+
+    </div>
+    <br>
+
+    <script src="../javascript/product.js"></script>
+</body>
+
+</html>
